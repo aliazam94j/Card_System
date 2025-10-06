@@ -1,0 +1,12 @@
+{
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+    "makefile.makePath": "C:\\msys64\\mingw64\\bin\\mingw32-make",
+    "makefile.makefilePath": "",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\AliAz\\OneDrive\\WS 2",
+            "binaryPath": "c:\\Users\\AliAz\\OneDrive\\WS 2\\main.exe",
+            "binaryArgs": []
+        }
+    ]
+}
