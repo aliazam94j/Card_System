@@ -7,6 +7,14 @@
             "cwd": "c:\\Users\\AliAz\\OneDrive\\WS 2",
             "binaryPath": "c:\\Users\\AliAz\\OneDrive\\WS 2\\main.exe",
             "binaryArgs": []
+        },
+        {
+            "cwd": "c:\\Users\\AliAz\\Desktop\\WS2",
+            "binaryPath": "c:\\Users\\AliAz\\Desktop\\WS2\\main.exe",
+            "binaryArgs": []
         }
-    ]
+    ],
+    "files.associations": {
+        "string.h": "c"
+    }
 }
