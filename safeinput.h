@@ -1,5 +1,5 @@
-#ifndef __SAFE_INPUT_H
-#define __SAFE_INPUT_H
+#ifndef SAFE_INPUT_H
+#define SAFE_INPUT_H
 #include <stdbool.h>
 
 typedef enum

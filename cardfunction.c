@@ -117,10 +117,11 @@ bool addRemoveAccess(SystemState *s) {
     if(!GetInputInt("Enter The Card Here!: ", &number)){
         puts("Not valid input. ");
         return false;
-}   
-
-
-
+}
+if (number <=0){
+    puts("Card must be positive. ");
+    return false;
+}
 
     // check if it exists
     int position=findCardIndex(s,number);
