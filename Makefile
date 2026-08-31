@@ -1,7 +1,7 @@
 PROG=main.exe
 # CC=gcc
 DEPS=
-SOURCES=main.c cardfunction.c card.c menu.c safeinput.c
+SOURCES=main.c cardfunction.c card.c menu.c safeinput.c systemstate.c
 CFLAGS=-Wall -Werror -g
 OUTPUTDIR=obj
 OBJS = $(addprefix $(OUTPUTDIR)/, $(SOURCES:.c=.o))

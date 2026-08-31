@@ -17,7 +17,7 @@
 
 
 static int findCardIndex(const SystemState *s, int number){
-    for(int input =0; input <s->cardCount; ++input){
+    for(int input =0; input < s->cardCount; ++input){
         if(s->cards[input].cardNumber == number) return input;
     }
     return -1;

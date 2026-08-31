@@ -8,11 +8,9 @@
 #include "systemstate.h"
 
 int main(void){
-    SystemState state ={
-        .cards        =NULL,
-        .cardCount    =0,
-        .cardCapacity =0
-    };
+    SystemState state;
+    initSystemstate(&state);
+
     if(LoadDaFile(&state, "cards.dat")){
         printf("Loaded %d cards from file.\n", state.cardCount);
     }else{
@@ -42,7 +40,7 @@ if (!GetInputInt("Select option: ", &option)) {
                 if(!SaveDaFile(&state, "cards.dat")){
                     puts("Warning: FAILED to save cardfile.");
                 }
-                free(state.cards);
+                freeSystemstate(&state);
                 printf("Exiting...\n");
                 return 0;
             case 9:
